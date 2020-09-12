@@ -6,7 +6,7 @@ function start() {
     console.log(currentTime, typeof(currentTime))
     timeInterval = setInterval(function() {
         currentTime += .01;
-        document.querySelector('h2').textContent = currentTime.toFixed(3);
+        document.querySelector('h2').textContent = currentTime.toFixed(2);
     }, 10);
 }
 
@@ -16,5 +16,5 @@ function stop() {
 
 function reset() {
     currentTime = 0;
-    document.querySelector('h2').textContent = currentTime.toFixed(3);
+    document.querySelector('h2').textContent = currentTime.toFixed(2);
 };
