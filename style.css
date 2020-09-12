@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 button {
     display: block;
     width: 90%;
@@ -22,9 +26,11 @@ h2 {
 }
 
 .container {
-    background-color: rgba(20, 19, 19, 0.616);
+    position: absolute;
+    top: 2vw;
+    bottom: 2vw;
+    background-color: rgba(49, 49, 49, 0.9);
     width: 95vw;
-    height: 90vh;
     margin: 0 auto;
     border-radius: 50px;
     padding-top: 5vw;
