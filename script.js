@@ -15,6 +15,7 @@ function stop() {
 };
 
 function reset() {
+    stop()
     currentTime = 0;
     document.querySelector('h2').textContent = currentTime.toFixed(2);
 };
