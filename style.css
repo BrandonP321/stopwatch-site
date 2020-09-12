@@ -1,9 +1,7 @@
 button {
     display: block;
-    margin: 1vw auto;
-    width: 10vw;
-    height: 5vw;
-    font-size: 3em;
+    width: 90%;
+    margin: 0 auto;
 }
 
 h1, h2 {
@@ -11,19 +9,15 @@ h1, h2 {
     text-align: center;
 }
 
-h1 {
-    font-size: 5em;
-}
-
 h2 {
-    font-size: 5em;
     color: white;
 }
 
 .container {
     background-color: rgba(20, 19, 19, 0.616);
-    width: 60vw;
+    width: 95vw;
+    height: 90vh;
     margin: 0 auto;
-    padding: 3vw;
     border-radius: 80px;
+    padding-top: 5vw;
 }
